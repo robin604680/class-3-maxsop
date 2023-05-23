@@ -8,5 +8,77 @@
 </head>
 <body>
     <h1>HTML Form</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>All input type:-</legend>
+            <input type="datetime-local"> <br><br>
+            <input type="text" placeholder="Type Your Name" required> <br><br>
+            <input type="number" placeholder="Type Your Number" required> <br><br>
+            <input type="email" placeholder="Type Your Email" required> <br><br>
+            <input type="password" placeholder="Type Your Password" required> <br><br>
+            <select name="" id="" required>
+                <option value="dhaka">Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Chattogram">Chattogram</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Bogura">Bogura</option>
+                <option value="Mymensingh">Mymensingh</option>
+                <option value="Barishal">Barishal</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+            <input type="number" placeholder="Type Zip Code" required> <br><br>
+
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female <br><br>
+
+            <input type="checkbox" name="service" value="HTML">HTML
+            <input type="checkbox" name="service" value="CSS">CSS
+            <input type="checkbox" name="service" value="BOOTSTRAP">BOOTSTRAP <br><br>
+
+            <input type="file" multiple required> <br><br>
+
+            <textarea name="" id="" cols="30" rows="10">Type comment:-
+            </textarea><br><br>
+            <input type="submit" value="Submit Data">
+            <input type="reset" value="Reset All">
+            <input type="color">
+        </fieldset>
+    </form>
+    <br><br><br>
+    <form action="#">
+        <fieldset>
+            <legend>Presonal Details</legend>
+            <label for="name">First Name:-</label> <br>
+            <input type="fname"><br>
+            <label for="name">Last Name:-</label> <br>
+            <input type="lname"><br>
+            <label for="email">Email:-</label><br>
+            <input type="email"><br>
+            <label for="password">Password:-</label><br>
+            <input type="password"><br>
+            <label for="date">Date of Barth:-</label><br>
+            <input type="date"> <br>
+            <label for="address">Address:-</label> <br>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br>
+            <input type="checkbox" required>I Agree with terms and conditions <br><br>
+            <input type="submit" value="Submit All" onclick="alert('Thanks For You')">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="name">User Name:-</label> <br>
+            <input type="text" required><br>
+            <label for="password">Password:-</label><br>
+            <input type="password" required><br>
+            <p style="cursor: pointer;"><strong>Forget Password...?</strong></p> 
+            <input type="submit" value="Login">
+            <p>Not a mamber...?</p>
+            <a href="#">Sign Up</a>
+        </fieldset>
+    </form>
 </body>
 </html>
