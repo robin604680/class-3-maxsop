@@ -46,7 +46,9 @@
             <input type="color">
         </fieldset>
     </form>
-    <br><br><br>
+    <br>
+    <hr>
+    <br>
     <form action="#">
         <fieldset>
             <legend>Presonal Details</legend>
@@ -66,7 +68,9 @@
             <input type="submit" value="Submit All" onclick="alert('Thanks For You')">
         </fieldset>
     </form>
-    <br><br>
+    <br>
+    <hr>
+    <br>
     <form action="#" method="post">
         <fieldset>
             <legend>Login Form</legend>
@@ -78,6 +82,175 @@
             <input type="submit" value="Login">
             <p>Not a mamber...?</p>
             <a href="#">Sign Up</a>
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="name">Full Name:-</label><br>
+            <input type="text" placeholder="Enter Your Name"> <br>
+            <label for="name">User Name:-</label><br>
+            <input type="text" placeholder="Enter Your User Name"><br>
+            <label for="text">Email:-</label><br>
+            <input type="email" placeholder="Enter Your Email"><br>
+            <label for="text">Phone Number:-</label><br>
+            <input type="number" placeholder="Enter Your Number"><br>
+            <label for="#">Password</label><br>
+            <input type="password" placeholder="Enter Your Password"><br>
+            <label for="#">Confirm Password</label><br>
+            <input type="password" placeholder="Confirm Your Password"><br>
+
+            <label for="gender">Gender:-</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other <br>
+            <label for="text">Address:-</label><br>
+            <textarea cols="40" rows="10"></textarea><br>
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Project Management</legend>
+            <label for="name">Project Name:-</label>
+            <input type="text" placeholder="Project Name"><br>
+            <label for="text">Assigned to:-</label>
+            <select name="person">
+                <option value="Er Merry Petision">Er Merry Petision</option>
+                <option value="Er Deepak Bhusan">Er Deepak Bhusan</option>
+                <option value="Er Robert Watson">Er Robert Watson</option>
+                <option value="Er Robert Watson">Er Robert Watson</option>
+                <option value="Er Robert Watson">Er Robert Watson</option>
+            </select><br>
+            <label for="text">Start Date:-</label>
+            <input type="date"><br>
+            <label for="text">Start Date:-</label>
+            <input type="date"><br>
+            <label for="text">Priority:-</label>
+            <input type="radio" name="priority" id="high" value="High"> High
+            <input type="radio" name="priority" id="medium" value="Average"> Medium
+            <input type="radio" name="priority" id="low" value="Low"> Low <br>
+            <label for="#">Description:-</label><br>
+            <textarea name="" id="" cols="30" rows="5">Message:-</textarea><br>
+            <input type="submit" value="Submit">
+            <input type="Reset" value="Clear">
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Employer Details</legend>
+            <label for="name">First Name:-</label> 
+            <input type="fname"><br><br>
+            <label for="name">Last Name:-</label> 
+            <input type="lname"><br><br>
+            <label for="email">Gender:-</label>
+            <input type="radio" name="gender"  value="male"> Male
+            <input type="radio" name="gender" value="Average"> Female <br><br>
+            <label for="text">Employee ID:-</label>
+            <input type="number"><br><br>
+            <label for="text">Desigation:-</label>
+            <input type="text"><br><br>
+            <label for="number">Phone Number:-</label>
+            <input type="number"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Form List</legend>
+            <fieldset>
+                <legend>Login Form</legend>
+                <label for="name">UserName:-</label>
+                <input type="text" name="" id=""> <br><br>
+                <label for="password">Password:-</label>
+                <input type="password" name="" id="">
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </fieldset>
+            <fieldset>
+                <legend>Programming Skill</legend>
+                <input type="checkbox" name="service" value="html">HTML
+                <input type="checkbox" name="service" value="css">CSS
+                <input type="checkbox" name="service" value="c++">C++
+                <input type="checkbox" name="service" value="bootstrap">BOOTSTRAP
+            </fieldset>
+            <fieldset>
+                <legend>Division</legend>
+                <label for="division">Choose your Division:-</label>
+                <select name="" id="">
+                    <option value="dhaka">Dhaka</option>
+                    <option value="Mymensingh"selected>Mymensingh </option>
+                    <option value="Barishal">Barishal</option>
+                    <option value="Chattogram">Chattogram</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Sylhet">Sylhet</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <textarea name="" id="" cols="50" rows="10">Your Message:-</textarea><br>
+                <input type="submit" value="SEND">
+                <input type="reset" value="RESET">
+            </fieldset>
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Customer</legend>
+            <label for="name">Name:-</label>
+            <input type="text"><br><br>
+            <label for="email">Email:-</label>
+            <input type="email"><br><br>
+            <label for="name">Investment:-</label>
+            <select name="" id="">
+                <option value="number">100000</option>
+                <option value="number">200000</option>
+                <option value="number">300000</option>
+                <option value="number">400000</option>
+                <option value="number">500000</option>
+            </select><br><br>
+            <label for="text">Date Joined:-</label>
+            <input type="date"> <br><br>
+            <label for="text">Active:-</label>
+            <input type="checkbox"><br><br>
+            <input type="submit" value="Ok">
+            <input type="reset" value="CANCEL">
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Search</legend>
+            <label for="gsearch">Search Google:-</label>
+            <input type="search" id="gsearch" name="gsearch">
+            <input type="submit" value="Search"><br><br>
+            <label for="homepage">Add your homepage:-</label>
+            <input type="url" id="homepage" name="homepage">
+            <input type="submit" value="Submit"><br><br>
+            <label for="week">Select a week:-</label>
+            <input type="week" id="week" name="week">
+            <input type="submit" value="Submit">
         </fieldset>
     </form>
 </body>
